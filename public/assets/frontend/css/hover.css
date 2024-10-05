@@ -1,0 +1,32 @@
+.item-img {
+    position: relative;
+    display: inline-block;
+}
+
+.item-img .product-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.product-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+.item-img:hover .product-description {
+    opacity: 1; /* Show the description on hover */
+}

@@ -1,0 +1,58 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+/.zed
+
+
+
+    <script src="{{(asset('assets/frontend'))}}/js/jquery.min.js" type="text/javascript"></script>
+    <link href="{{(asset('assets/frontend'))}}/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <script src="{{(asset('assets/frontend'))}}/js/bootstrap.min.js" type="text/javascript"></script>
+    <link href="{{(asset('assets/frontend'))}}/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <!-- external css/js -->
+    <link href="{{(asset('assets/frontend'))}}/css/jquery.fancybox.css" rel="stylesheet">
+    <script src="{{(asset('assets/frontend'))}}/js/jquery.fancybox.js" type="text/javascript"></script>
+    <!-- external css/js end-->
+
+    <!-- Google Fonts // magik theme-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,700,800,400,600'
+          rel='stylesheet' type='text/css'>
+    <!-- end font -->
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,400i,300,700" rel="stylesheet" type="text/css"/>
+
+    <link href="{{(asset('assets/frontend'))}}/css/animate.css" rel="stylesheet">
+    <link href="{{(asset('assets/frontend'))}}/css/stylesheet.css" rel="stylesheet">
+    <link href="{{(asset('assets/frontend'))}}/css/font-awesome.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{(asset('assets/frontend'))}}/css/owl.carousel.css">
+    <link href="{{(asset('assets/frontend'))}}/css/style.css" rel="stylesheet">
+
+    <link href="{{(asset('assets/frontend'))}}/css/eislideshow.css" type="text/css" rel="stylesheet" media="screen"/>
+    <!-- <script src="catalog/view/javascript/common.js" type="text/javascript"></script> -->
+
+
+    <script src="{{(asset('assets/frontend'))}}/js/parallax.js" type="text/javascript"></script>
+    <script src="{{(asset('assets/frontend'))}}/js/common.js" type="text/javascript"></script>
+    <script src="{{(asset('assets/frontend'))}}/js/common1.js" type="text/javascript"></script>
+    <script src="{{(asset('assets/frontend'))}}/js/cloudzoom.js" type="text/javascript"></script>
+    <script src="{{(asset('assets/frontend'))}}/js/owl.carousel.min.js" type="text/javascript"></script>
+
+    <script src="{{(asset('assets/frontend'))}}/js/eislideshow.js" type="text/javascript"></script>
